@@ -184,7 +184,7 @@ h1{
 }
 
 .margin-bottom{
-    margin-bottom: 50px;
+    margin-bottom: 28px;
 }
 
 .font-size{
@@ -196,7 +196,7 @@ h1{
 }
 
 .marginright{
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 .reverse{
@@ -236,7 +236,7 @@ h1{
 }
 
 .marginleft{
-    margin-left: 6px;
+    margin-left: 2px;
 }
 
 .justify{
@@ -299,7 +299,7 @@ abbr {
 }
 
 .backgroundcolor4{
-  background-color: rgba(0, 250, 62, 0.413);
+  background-color: green;
 }
 
 .backgroundcolor5{
@@ -307,11 +307,11 @@ abbr {
 }
 
 a[href^="mailto"]::before {
-  content: "association.bric.saint.chamond@gmail.com";
+  content: "valentin.vialleton1@gmail.com";
 }
 
 a[href^="tel"]::before {
-  content: "06 30 87 05 41";
+  content: "06 33 10 71 08";
 }
 
 label {
@@ -366,3 +366,10 @@ input {
     margin-left: 10px;
 }
 
+.marginleft5{
+    margin-left: 80px;
+}
+
+.marginleft6{
+    margin-left: 60px
+}
