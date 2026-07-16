@@ -40,10 +40,12 @@ display: inline-block;
 }
 
 .margin-top-40{
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
-
+.margin-top-50{
+    margin-top: 75px;
+}
 
 /*FLEX BOT*/
 
@@ -250,7 +252,7 @@ h1{
     height: 100%;
 }
 
-.border-raduiscall{
+.border-raduis{
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -259,11 +261,11 @@ h1{
 }
 
 .backgroundcolor3{
-    background-color: mediumturquoise;
+    background-color: rgb(255, 157, 77);
 }
 
 .colorwhite{
-    color: white;
+    color: black;
 }
 
 .justifycontentflexstart{
@@ -275,7 +277,7 @@ h1{
 }
 
 .marginright2{
-    margin-right: 5px;
+    margin-right: 130px;
 }
 
 .marginleft2{
@@ -367,9 +369,13 @@ input {
 }
 
 .marginleft5{
-    margin-left: 80px;
+    margin-left: 130px;
 }
 
 .marginleft6{
-    margin-left: 60px
+    margin-left: 420px
+}
+
+.box-shadows{
+    box-shadow: 10px 5px 5px red;
 }
