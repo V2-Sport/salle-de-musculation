@@ -193,10 +193,6 @@ h1{
     font-size: 30px;
 }
 
-.justify-center{
-    justify-content: center;
-}
-
 .marginright{
     margin-right: 30px;
 }
@@ -211,22 +207,6 @@ h1{
 
 .btn2{
     background-color: blanchedalmond;
-}
-
-.border-raduiscuisine{
-    border-radius: 0px 40px 0px 0px;
-}
-
-.border-raduisentreetgarage{
-    border-radius: 40px 0px 0px 0px;
-}
-
-.border-raduisbureauxetchambre{
-    border-radius: 0px 0px 40px 0px;
-}
-
-.border-raduiscabinetetsalon{
-    border-radius: 0px 0px 0px 40px;
 }
 
 .text-align-center{
@@ -277,7 +257,7 @@ h1{
 }
 
 .marginright2{
-    margin-right: 130px;
+    margin-right: 100px;
 }
 
 .marginleft2{
@@ -365,7 +345,7 @@ input {
 }
 
 .marginleft4{
-    margin-left: 10px;
+    margin-left: 130px;
 }
 
 .marginleft5{
@@ -373,9 +353,13 @@ input {
 }
 
 .marginleft6{
-    margin-left: 420px
+    margin-left: 250px
+}
+
+.marginright3{
+    margin-right: 30px;
 }
 
 .box-shadows{
-    box-shadow: 10px 5px 5px red;
+    box-shadow: 10px 10px 10px red;
 }

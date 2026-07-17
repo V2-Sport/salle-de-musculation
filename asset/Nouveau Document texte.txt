@@ -1,3 +1,10 @@
-musculation sans matériel- jambes 
+<p class="backgroundcolor3 border-raduis box-shadows">
 
-3 a 4 séances 10 a 20 répétitions récup: 20 sec a 1min
+                -1000m²
+                <br>-Machine haut de gamme
+                <br>-Bain froid
+                <br>-Hammam
+                <br>-Sauna
+                <br>-Terrain de basket
+
+            </p>
