@@ -7,4 +7,15 @@
                 <br>-Sauna
                 <br>-Terrain de basket
 
+</p>
+
+
+<div class="flex marginright2 margin-top-30 marginend">
+
+            <p class="">
+                musculation sans matériel - jambes
+                <br>3 a 4 séances 10 a 20 répétitions
+                <br>récup: 20 sec a 1min
             </p>
+
+</div>
