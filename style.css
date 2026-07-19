@@ -44,7 +44,7 @@ display: inline-block;
 }
 
 .margin-top-60{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .marginleft3{
@@ -366,4 +366,10 @@ input {
 
 .border{
    border: 0; 
+}
+
+.static{
+    position: absolute;
+    inset-inline-start: 1000px;
+    inset-block-start: 10px;
 }
