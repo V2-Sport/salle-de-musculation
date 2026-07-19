@@ -13,10 +13,6 @@ h2{
 }
 
 .btn{
-background-color: black;
-border-radius: 5px;
-color: white;
-padding: 5px 15px;
 display: inline-block;
 }
 
@@ -36,7 +32,7 @@ display: inline-block;
 }
 
 .margin-top-30{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .margin-top-40{
@@ -45,6 +41,58 @@ display: inline-block;
 
 .margin-top-50{
     margin-top: 75px;
+}
+
+.margin-top-60{
+    margin-top: 100px;
+}
+
+.marginleft3{
+    margin-left: 900px;
+}
+
+.marginleft4{
+    margin-left: 130px;
+}
+
+.marginleft5{
+    margin-left: 130px;
+}
+
+.marginleft6{
+    margin-left: 250px
+}
+
+.marginright3{
+    margin-right: 30px;
+}
+
+.margin-bottom{
+    margin-bottom: 28px;
+}
+
+.marginright{
+    margin-right: 30px;
+}
+
+.marginleft{
+    margin-left: 2px;
+}
+
+.marginend{
+    justify-content: flex-end;
+}
+
+.marginright2{
+    margin-right: 70px;
+}
+
+.marginleft2{
+    margin-left: 1000px;
+}
+
+.marginleft1{
+    margin-left: 5px;
 }
 
 /*FLEX BOT*/
@@ -185,16 +233,8 @@ h1{
     margin-bottom: 20px;
 }
 
-.margin-bottom{
-    margin-bottom: 28px;
-}
-
 .font-size{
     font-size: 30px;
-}
-
-.marginright{
-    margin-right: 30px;
 }
 
 .reverse{
@@ -217,10 +257,6 @@ h1{
     background-color: red;
 }
 
-.marginleft{
-    margin-left: 2px;
-}
-
 .justify{
     justify-self: center;
 }
@@ -234,10 +270,6 @@ h1{
 
 .border-raduis{
     border-radius: 10px 10px 10px 10px;
-}
-
-.marginend{
-    justify-content: flex-end;
 }
 
 .backgroundcolor3{
@@ -254,14 +286,6 @@ h1{
 
 .test{
     align-items: flex-start;
-}
-
-.marginright2{
-    margin-right: 70px;
-}
-
-.marginleft2{
-    margin-left: 400px;
 }
 
 .widthtest{
@@ -281,7 +305,7 @@ abbr {
 }
 
 .backgroundcolor4{
-  background-color: green;
+  background-color: rgb(255, 238, 214);
 }
 
 .backgroundcolor5{
@@ -330,36 +354,16 @@ input {
     color:red;
 }
 
-.marginleft1{
-    margin-left: 5px;
-}
-
 .absolute {
   position: absolute;
   width: 350px;
   height: 250px;
 }
 
-.marginleft3{
-    margin-left: 900px;
-}
-
-.marginleft4{
-    margin-left: 130px;
-}
-
-.marginleft5{
-    margin-left: 130px;
-}
-
-.marginleft6{
-    margin-left: 250px
-}
-
-.marginright3{
-    margin-right: 30px;
-}
-
 .box-shadows{
     box-shadow: 10px 10px 10px red;
+}
+
+.border{
+   border: 0; 
 }

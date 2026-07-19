@@ -1,15 +1,3 @@
-<p class="backgroundcolor3 border-raduis box-shadows">
-
-                -1000m²
-                <br>-Machine haut de gamme
-                <br>-Bain froid
-                <br>-Hammam
-                <br>-Sauna
-                <br>-Terrain de basket
-
-</p>
-
-
 <div class="flex marginright2 margin-top-30 marginend">
 
             <p class="">
