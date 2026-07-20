@@ -277,7 +277,7 @@ h1{
 }
 
 .colorwhite{
-    color: black;
+    color: white;
 }
 
 .justifycontentflexstart{
@@ -309,7 +309,7 @@ abbr {
 }
 
 .backgroundcolor5{
-  background-color: beige;
+  background-color: white;
 }
 
 a[href^="mailto"]::before {
@@ -372,4 +372,13 @@ input {
     position: absolute;
     inset-inline-start: 1000px;
     inset-block-start: 10px;
+}
+
+.background-image{
+    background-image:url(asset/salle\ de\ muscu.jpg) 
+    
+}
+
+.background-image2{
+    background-repeat:repeat-y
 }
