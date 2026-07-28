@@ -126,6 +126,14 @@ display: inline-block;
     margin-top: 80px;
 }
 
+.marginleft1{
+    margin-left: 5px;
+}
+
+.marginleft2{
+    margin-left: 1000px;
+}
+
 .marginleft3{
     margin-left: 900px;
 }
@@ -140,6 +148,10 @@ display: inline-block;
 
 .marginleft6{
     margin-left: 250px
+}
+
+.marginright4{
+    margin-right: 100px;
 }
 
 .marginright3{
@@ -164,14 +176,6 @@ display: inline-block;
 
 .marginright2{
     margin-right: 70px;
-}
-
-.marginleft2{
-    margin-left: 1000px;
-}
-
-.marginleft1{
-    margin-left: 5px;
 }
 
 /*FLEX BOT*/
