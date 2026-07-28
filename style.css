@@ -465,3 +465,7 @@ input {
 .background-image2{
     background-repeat:repeat-y
 }
+
+dialog{
+    text-decoration: none;
+}
