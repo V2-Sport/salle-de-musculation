@@ -159,7 +159,11 @@ display: inline-block;
 }
 
 .margin-bottom{
-    margin-bottom: 28px;
+    margin-bottom: 25px;
+}
+
+.margin-bottom1{
+    margin-bottom: 70px;
 }
 
 .marginright{
