@@ -129,7 +129,7 @@ h2 {
 }
 
 .marginleft1 {
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 .marginleft2 {
@@ -475,3 +475,8 @@ input {
 dialog {
     text-decoration: none;
 }
+
+.gap{
+    gap: 120px;
+}
+
