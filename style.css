@@ -50,7 +50,7 @@ body {
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: rgb(255, 157, 77);
 }
 
 input:checked+.slider:before {
@@ -59,8 +59,7 @@ input:checked+.slider:before {
 
 /* Classe pour l'arrière-plan sombre */
 body.dark-mode {
-    background-image: url(asset/salle\ de\ muscu.jpg);
-    color: black;
+    background-color: black;
 }
 
 /* fin boutton switch */
@@ -130,15 +129,15 @@ h2 {
 }
 
 .marginleft1 {
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 .marginleft2 {
-    margin-left: 1000px;
+    margin-left: 230px;
 }
 
 .marginleft3 {
-    margin-left: 900px;
+    margin-left: 150px;
 }
 
 .marginleft4 {
