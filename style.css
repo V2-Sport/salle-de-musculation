@@ -4,98 +4,101 @@
     margin: 0;
 }
 
-/* debut boutton switch */ 
+/* debut boutton switch */
 
 body {
-  background-color: #ffffff;
-  color: #000000;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
 }
 
 .switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: #ccc;
-  transition: 0.4s;
-  border-radius: 34px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  transition: 0.4s;
-  border-radius: 50%;
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
 }
 
-input:checked + .slider {
-  background-color: #2196F3;
+input:checked+.slider {
+    background-color: #2196F3;
 }
 
-input:checked + .slider:before {
-  transform: translateX(26px);
+input:checked+.slider:before {
+    transform: translateX(26px);
 }
 
 /* Classe pour l'arrière-plan sombre */
 body.dark-mode {
-  background-image: url(asset/salle\ de\ muscu.jpg);
-  color: black;
+    background-image: url(asset/salle\ de\ muscu.jpg);
+    color: black;
 }
 
 /* fin boutton switch */
 
-.bebas-neue-regular{
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.julius-sans-one-regular{
-  font-family: "Julius Sans One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.dynapuff-uniquifier{
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.dynapuff-uniquifier {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h2{
+h2 {
     font-size: 35px;
 }
 
-.btn{
-display: inline-block;
+.btn {
+    display: inline-block;
 }
 
-.btn-primary{
+.btn-primary {
     font-size: 25px;
 }
 
@@ -110,75 +113,75 @@ display: inline-block;
     width: 100%;
 }
 
-.margin-top-30{
+.margin-top-30 {
     margin-top: 30px;
 }
 
-.margin-top-40{
+.margin-top-40 {
     margin-top: 100px;
 }
 
-.margin-top-50{
+.margin-top-50 {
     margin-top: 75px;
 }
 
-.margin-top-60{
+.margin-top-60 {
     margin-top: 80px;
 }
 
-.marginleft1{
+.marginleft1 {
     margin-left: 5px;
 }
 
-.marginleft2{
+.marginleft2 {
     margin-left: 1000px;
 }
 
-.marginleft3{
+.marginleft3 {
     margin-left: 900px;
 }
 
-.marginleft4{
+.marginleft4 {
     margin-left: 130px;
 }
 
-.marginleft5{
+.marginleft5 {
     margin-left: 130px;
 }
 
-.marginleft6{
+.marginleft6 {
     margin-left: 250px
 }
 
-.marginright4{
+.marginright4 {
     margin-right: 100px;
 }
 
-.marginright3{
+.marginright3 {
     margin-right: 30px;
 }
 
-.margin-bottom{
+.margin-bottom {
     margin-bottom: 25px;
 }
 
-.margin-bottom1{
-    margin-bottom: 190px;
+.margin-bottom1 {
+    margin-bottom: 150px;
 }
 
-.marginright{
+.marginright {
     margin-right: 30px;
 }
 
-.marginleft{
+.marginleft {
     margin-left: 2px;
 }
 
-.marginend{
+.marginend {
     justify-content: flex-end;
 }
 
-.marginright2{
+.marginright2 {
     margin-right: 70px;
 }
 
@@ -209,16 +212,16 @@ display: inline-block;
 }
 
 .align-content {
-align-content: center;
-} 
+    align-content: center;
+}
 
 /* CLASSE DE DIMENSIONS*/
 
-.w-100{
+.w-100 {
     width: 100%;
 }
 
-.w-85{
+.w-85 {
     width: 85%;
 }
 
@@ -231,7 +234,7 @@ align-content: center;
 
 }
 
-.w40{
+.w40 {
     width: 40%;
 }
 
@@ -243,27 +246,26 @@ align-content: center;
     width: 25%;
 }
 
-.w-10{
+.w-10 {
     width: 10%;
 }
 
-.w-5{
+.w-5 {
     width: 5%;
 }
 
-.height{
+.height {
     height: 50px;
 }
 
-.width{
+.width {
 
     width: 225vh;
 }
 
-.maxwidth{
+.maxwidth {
 
     max-width: 100%
-    
 }
 
 /*HEADER*/
@@ -292,184 +294,185 @@ header {
     background-position: center;
 }
 
-.sectionhero div{
+.sectionhero div {
     text-align: center;
 }
 
-h1{
+h1 {
     margin-bottom: 20px;
     font-size: 45px;
 }
-.sectionhero div p{
+
+.sectionhero div p {
     margin-bottom: 50px;
     font-size: 25px;
 }
 
 /* SECTION SERVICES*/
 
-.card{
+.card {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
     border-radius: 20px;
     padding: 20px;
 }
-.card h3{
+
+.card h3 {
     margin-bottom: 20px;
 }
 
-.card p{
+.card p {
     margin-bottom: 20px;
 }
 
-.font-size{
+.font-size {
     font-size: 30px;
 }
 
-.reverse{
+.reverse {
     flex-direction: row-reverse;
 }
 
-.border-raduis{
+.border-raduis {
     border-radius: 30px 30px 30px 30px;
 }
 
-.btn2{
+.btn2 {
     background-color: blanchedalmond;
 }
 
-.text-align-center{
+.text-align-center {
     text-align: center;
 }
 
-.backgroundcolor{
+.backgroundcolor {
     background-color: red;
 }
 
-.justify{
+.justify {
     justify-self: center;
 }
 
-.backgroundcolor2{
+.backgroundcolor2 {
     background-color: #F4F0EC;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
 }
 
-.border-raduis{
+.border-raduis {
     border-radius: 10px 10px 10px 10px;
 }
 
-.backgroundcolor3{
+.backgroundcolor3 {
     background-color: rgb(255, 157, 77);
 }
 
-.colorwhite{
+.colorwhite {
     color: white;
 }
 
-.justifycontentflexstart{
+.justifycontentflexstart {
     align-items: flex-start;
 }
 
-.test{
+.test {
     align-items: flex-start;
 }
 
-.widthtest{
+.widthtest {
     width: 200px;
 }
 
-.justifycontentflex{
+.justifycontentflex {
     justify-content: first baseline;
 }
 
 small {
-  font-size: 0.7em;
+    font-size: 0.7em;
 }
 
 abbr {
-  color: brown;
+    color: brown;
 }
 
-.backgroundcolor4{
-  background-color: rgb(255, 238, 214);
+.backgroundcolor4 {
+    background-color: rgb(255, 238, 214);
 }
 
-.backgroundcolor5{
-  background-color: white;
+.backgroundcolor5 {
+    background-color: transparent;
 }
 
 a[href^="mailto"]::before {
-  content: "valentin.vialleton1@gmail.com";
+    content: "valentin.vialleton1@gmail.com";
 }
 
 a[href^="tel"]::before {
-  content: "06 33 10 71 08";
+    content: "06 33 10 71 08";
 }
 
 label {
-  padding-right: 10px;
+    padding-right: 10px;
 }
 
 select {
-  padding: 2px 5px;
+    padding: 2px 5px;
 }
 
 label {
-  display: block;
+    display: block;
 }
 
 input,
 label {
-  margin: 0.4rem 0;
+    margin: 0.4rem 0;
 }
 
 form.form-example {
-  display: table;
+    display: table;
 }
 
 div.form-example {
-  display: table-row;
+    display: table-row;
 }
 
 label,
 input {
-  display: table-cell;
+    display: table-cell;
 }
 
-.colorwhite2{
-    color:red;
+.colorwhite2 {
+    color: red;
 }
 
 .absolute {
-  position: absolute;
-  width: 350px;
-  height: 250px;
+    position: absolute;
+    width: 350px;
+    height: 250px;
 }
 
-.box-shadows{
+.box-shadows {
     box-shadow: 10px 10px 10px red;
 }
 
-.border{
-   border: 0; 
+.border {
+    border: none;
 }
 
-.static{
+.static {
     position: absolute;
     inset-inline-start: 1000px;
     inset-block-start: 10px;
 }
 
-.background-image{
-    background-image:url(asset/salle\ de\ muscu.jpg) 
-    
+.background-image {
+    background-image: url(asset/salle\ de\ muscu.jpg)
 }
 
-.background-image2{
-    background-repeat:repeat-y
+.background-image2 {
+    background-repeat: repeat-y
 }
 
-dialog{
+dialog {
     text-decoration: none;
 }
