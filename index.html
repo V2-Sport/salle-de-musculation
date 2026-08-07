@@ -3,40 +3,149 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page QR Code</title>
+    <title>salle de musculation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff:wght@400..700&family=Julius+Sans+One&display=swap"
+        rel="stylesheet">
+
 </head>
 
-<body data-rsssl=1>
+<header class="flex space-between">
 
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="script.js">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
-            integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer">
-        </script>
+    <label class="switch">
 
-    </head>
+        <input type="checkbox" id="theme-toggle">
 
-    <section class="flex margin-top-30 margin-bottom gap marginleft">
+        <span class="slider"></span>
+        <br>
+        <br>
+        <p>Cliquer pour avoir le mode sombre et les horaires en bas</p>
 
-        <button id="btn">Appuyer pour Générer un QR code</button> 
+    </label>
 
-        <a href="Page de depart.html">Appuyer sur ce texte si vous avez du mal avec le QR Code.</a>
+    <script src="script.js"></script>
 
-    </section>
+    <nav class="flex">
 
-    <div class="marginleft" id="qrcode-container"></div>
-    <script>
-        document.getElementById('btn').addEventListener('click', createQRCode);
-        function createQRCode() {
-            const QRContainer = document.getElementById("qrcode-container");
-            QRContainer.innerHTML = "";
-            new QRCode(QRContainer, 'https://v2-sport.github.io/salle-de-musculation/');
-        }
-    </script>
+        <ul>
+
+            <li class="text-align-center">
+
+                <img class="" src="asset/logo val (homme et en fond salle de musculation) modifié v.2.png" alt="">
+
+                <p class="colorwhite">
+                    <br>Sapientia mentis, Robur cordis Aequilibrium crurum
+                    <br>
+                    <br>
+                    (la sagesse de l'esprit, la force du cœur, l'équilibre des jambes)
+                </p>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <button class="border backgroundcolor5 margin-bottom1 margin-top-10" type="button" commandfor="mydialog"
+        command="show-modal">
+
+        <img class="backgroundcolor4" src="asset/trois trait.png" alt="">
+
+    </button>
+
+    <dialog class="backgroundcolor4 border margin-top-60 static" id="mydialog">
+
+        <div class="">
+
+            <form class="">
+
+                <fieldset>
+
+                    <legend class="text-align-center">
+
+                        <br><a class="marginright" href="index.html">Accueil</a>
+
+                        <br><br><a class="marginright" href="Infrastructure.html">Infrastructure</a>
+
+                        <br><br><a class="marginright" href="Les Prestations.html">Les Prestation</a>
+
+                        <br><br><a class="marginright" href="Abonnement mensuel.html">Abonnement Mensuel</a>
+
+                        <br><br><a class="marginright" href="Abonnement hebdomadaire.html">Abonnement Hebdomadaire</a>
+
+                        <br><br><a class="marginright" href="QR Code.html">QR Code</a>
+
+                        <br><br><button type="button" commandfor="mydialog" command="close"
+                            class="backgroundcolor4">Fermer</button>
+
+                    </legend>
+
+                </fieldset>
+
+            </form>
+
+        </div>
+
+    </dialog>
+
+</header>
+
+<body class="">
+
+    <footer class="margin-top-30 text-align-center dynapuff-uniquifier">
+
+        <div>
+
+            <h4 class="colorwhite">
+
+                Contact <i class="ph ph-address-book"></i>
+
+            </h4>
+            <br>
+
+            <form action="tel:06 33 10 71 08" method="POST" enctype="text/plain" class="">
+
+                <a href="tel:06 33 10 71 08"></a>
+
+            </form>
+
+            <p class="colorwhite">
+
+                <br>Jours d'Ouverture:
+                <br>Lundi: H-H
+                <br>Mardi: H-H
+                <br>Mercredi: H-H
+                <br>Jeudi: H-H
+                <br>Vendredi: H-H
+                <br>Samedi: H-H
+                <br>Dimanche: H-H
+
+            </p>
+            <br>
+
+            <form action="mailto:valentin.vialleton1@gmail.com" method="POST" enctype="text/plain" class="">
+
+                <a href="mailto:valentin.vialleton1@gmail.com"></a>
+
+            </form>
+
+            <br>
+        </div>
+
+    </footer>
+
+    </main>
 
 </body>
 
