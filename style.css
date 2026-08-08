@@ -121,7 +121,7 @@ h2 {
 }
 
 .margin-top-40 {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .margin-top-50 {
@@ -141,7 +141,7 @@ h2 {
 }
 
 .marginleft3 {
-    margin-left: 995px;
+    margin-left: 300px;
 }
 
 .marginleft4 {
@@ -170,6 +170,10 @@ h2 {
 
 .margin-bottom1 {
     margin-bottom: 190px;
+}
+
+.margin-bottom2 {
+    margin-bottom: 80px;
 }
 
 .marginright {
