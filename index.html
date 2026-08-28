@@ -23,18 +23,22 @@
 
 <header class="flex space-between">
 
-    <label class="switch">
+    <div class="margin-top-30">
 
-        <input type="checkbox" id="theme-toggle">
+        <label class="switch">
 
-        <span class="slider"></span>
-        <br>
-        <br>
-        <p>Cliquer pour avoir le mode sombre et les horaires en bas</p>
+            <input type="checkbox" id="theme-toggle">
 
-    </label>
+            <span class="slider"></span>
+            <br>
+            <br>
+            <p>Cliquer pour avoir le mode sombre et les horaires en bas</p>
 
-    <script src="script.js"></script>
+        </label>
+
+        <script src="script.js"></script>
+
+    </div>
 
     <nav class="marginleft3">
 
@@ -62,7 +66,7 @@
         <button class="border backgroundcolor5 margin-top-30 marginleft" type="button" commandfor="mydialog"
             command="show-modal">
 
-            <img class=" backgroundcolor4" src="asset/fleche_avec_un_cercle-removebg.png" alt="">
+            <img class="backgroundcolor4" src="asset/fleche_avec_un_cercle-removebg.png" alt="">
 
         </button>
 
@@ -87,7 +91,7 @@
                             <br><br><a class="marginright" href="Abonnement hebdomadaire.html">Abonnement
                                 Hebdomadaire</a>
 
-                            <br><br><a class="marginright" href="QR Code.html">Partager avec QR Code</a>
+                            <!--<br><br><a class="marginright" href="QR Code.html">Partager avec QR Code</a>-->
 
                             <br><br><button type="button" commandfor="mydialog" command="close"
                                 class="backgroundcolor4">Fermer</button>
@@ -125,18 +129,28 @@
 
             </form>
 
-            <p class="colorwhite">
+            <div>
 
-                <br>Jours d'Ouverture:
-                <br>Lundi: H-H
-                <br>Mardi: H-H
-                <br>Mercredi: H-H
-                <br>Jeudi: H-H
-                <br>Vendredi: H-H
-                <br>Samedi: H-H
-                <br>Dimanche: H-H
+                <p class="colorwhite2">
 
-            </p>
+                    <br>Jours d'Ouverture:
+
+                </p>
+
+                <p class="colorwhite">
+
+                    <br>Lundi: H-H
+                    <br>Mardi: H-H
+                    <br>Mercredi: H-H
+                    <br>Jeudi: H-H
+                    <br>Vendredi: H-H
+                    <br>Samedi: H-H
+                    <br>Dimanche: H-H
+
+                </p>
+
+            </div>
+
             <br>
 
             <form action="mailto:valentin.vialleton1@gmail.com" method="POST" enctype="text/plain" class="">

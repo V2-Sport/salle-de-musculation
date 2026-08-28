@@ -22,16 +22,22 @@
 
 <header class="flex space-between">
 
-    <label class="switch">
+    <div class="margin-top-30">
 
-        <input type="checkbox" id="theme-toggle">
+        <label class="switch">
 
-        <span class="slider"></span>
-        <br>
-        <br>
-        <p>Cliquer pour avoir le mode sombre et les horaires en bas</p>
+            <input type="checkbox" id="theme-toggle">
 
-    </label>
+            <span class="slider"></span>
+            <br>
+            <br>
+            <p>Cliquer pour avoir le mode sombre et les horaires en bas</p>
+
+        </label>
+
+        <script src="script.js"></script>
+
+    </div>
 
     <script src="script.js"></script>
 
@@ -86,7 +92,7 @@
                             <br><br><a class="marginright" href="Abonnement hebdomadaire.html">Abonnement
                                 Hebdomadaire</a>
 
-                            <br><br><a class="marginright" href="QR Code.html">Partager avec QR Code</a>
+                            <!--<br><br><a class="marginright" href="QR Code.html">Partager avec QR Code</a>-->
 
                             <br><br><button type="button" commandfor="mydialog" command="close"
                                 class="backgroundcolor4">Fermer</button>
@@ -123,11 +129,11 @@
 
         </section>
 
-        <section class="flex margin-top-30 space-between dynapuff-uniquifier">
+        <section class="flex margin-top-30 space-around dynapuff-uniquifier">
 
-            <img class="marginleft2 margin-bottom" src="asset/instructeur-personnel-d-entraîneur.jpg" alt="">
+            <img class="margin-bottom" src="asset/instructeur-personnel-d-entraîneur.jpg" alt="">
 
-            <section class="marginleft2">
+            <section class="">
 
                 <p class="box-shadows backgroundcolor3 border-raduis">
 
@@ -149,9 +155,7 @@
 
             </section>
 
-            <br>
-
-            <img class="margin-top-30 marginright2 marginleft2" src="asset/seance de muscu sans materiel 100.jpg" alt="">
+            <img class="margin-bottom" src="asset/programme de remise en forme.jpg" alt="">
 
         </section>
 
@@ -172,18 +176,28 @@
 
                 </form>
 
-                <p class="colorwhite">
+                <div>
 
-                    <br>Jours d'Ouverture:
-                    <br>Lundi: H-H
-                    <br>Mardi: H-H
-                    <br>Mercredi: H-H
-                    <br>Jeudi: H-H
-                    <br>Vendredi: H-H
-                    <br>Samedi: H-H
-                    <br>Dimanche: H-H
+                    <p class="colorwhite2">
 
-                </p>
+                        <br>Jours d'Ouverture:
+
+                    </p>
+
+                    <p class="colorwhite">
+
+                        <br>Lundi: H-H
+                        <br>Mardi: H-H
+                        <br>Mercredi: H-H
+                        <br>Jeudi: H-H
+                        <br>Vendredi: H-H
+                        <br>Samedi: H-H
+                        <br>Dimanche: H-H
+
+                    </p>
+
+                </div>
+
                 <br>
 
                 <form action="mailto:valentin.vialleton1@gmail.com" method="POST" enctype="text/plain" class="">
@@ -193,6 +207,7 @@
                 </form>
 
                 <br>
+
             </div>
 
         </footer>

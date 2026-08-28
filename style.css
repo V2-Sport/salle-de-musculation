@@ -372,6 +372,8 @@ h1 {
 
 .backgroundcolor3 {
     background-color: rgb(255, 157, 77);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .colorwhite {
@@ -449,7 +451,7 @@ input {
 }
 
 .colorwhite2 {
-    color: rgb(255, 238, 214);
+    color: blue;
 }
 
 .absolute {
@@ -459,7 +461,7 @@ input {
 }
 
 .box-shadows {
-    box-shadow: 10px 10px 10px red;
+    box-shadow: 10px 10px 10px blue;
 }
 
 .border {

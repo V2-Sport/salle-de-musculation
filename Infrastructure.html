@@ -22,16 +22,22 @@
 
 <header class="flex space-between">
 
-    <label class="switch">
+    <div class="margin-top-30">
 
-        <input type="checkbox" id="theme-toggle">
+        <label class="switch">
 
-        <span class="slider"></span>
-        <br>
-        <br>
-        <p>Cliquer pour avoir le mode sombre et les horaires en bas</p>
+            <input type="checkbox" id="theme-toggle">
 
-    </label>
+            <span class="slider"></span>
+            <br>
+            <br>
+            <p>Cliquer pour avoir le mode sombre et les horaires en bas</p>
+
+        </label>
+
+        <script src="script.js"></script>
+
+    </div>
 
     <nav class="marginleft3">
 
@@ -86,7 +92,7 @@
                             <br><br><a class="marginright" href="Abonnement hebdomadaire.html">Abonnement
                                 Hebdomadaire</a>
 
-                            <br><br><a class="marginright" href="QR Code.html">Partager avec QR Code</a>
+                            <!--<br><br><a class="marginright" href="QR Code.html">Partager avec QR Code</a>-->
 
                             <br><br><button type="button" commandfor="mydialog" command="close"
                                 class="backgroundcolor4">Fermer</button>
@@ -109,11 +115,11 @@
 
     <main>
 
-        <section class="text-align-center margin-top-30 margin-bottom backgroundcolor3 bebas-neue-regular">
+        <section class="text-align-center margin-top-30 margin-bottom  bebas-neue-regular">
 
-            <h3>
+            <h3 class="">
 
-                <u>
+                <u class="backgroundcolor3">
 
                     Les Infrastructure
 
@@ -123,9 +129,9 @@
 
         </section>
 
-        <section class="flex margin-top-30 space-around backgroundcolor3 bebas-neue-regular">
+        <section class="flex margin-top-30 space-around bebas-neue-regular">
 
-            <p class="text-align-center">
+            <p class="text-align-center backgroundcolor3">
 
                 -1000m² : <i class="ph ph-house-line"></i>
 
@@ -133,7 +139,7 @@
 
             </p>
 
-            <p class="text-align-center">
+            <p class="text-align-center backgroundcolor3">
 
                 -Machine haut de gamme :
 
@@ -143,10 +149,10 @@
 
         </section>
 
-        <section class="flex margin-top-30 space-around backgroundcolor3 bebas-neue-regular">
+        <section class="flex margin-top-30 space-around bebas-neue-regular">
 
 
-            <p class="text-align-center">
+            <p class="text-align-center backgroundcolor3">
 
                 -Bain froid : <i class="ph ph-bathtub"></i>
 
@@ -154,7 +160,9 @@
 
             </p>
 
-            <p class="text-align-center">
+            <br>
+
+            <p class="text-align-center backgroundcolor3">
 
                 -Hammam :
 
@@ -164,9 +172,9 @@
 
         </section>
 
-        <section class="flex margin-top-30 space-around backgroundcolor3 bebas-neue-regular">
+        <section class="flex margin-top-30 space-around bebas-neue-regular">
 
-            <p class="text-align-center">
+            <p class="text-align-center backgroundcolor3">
 
                 -Terrain de basket : <i class="ph ph-court-basketball"></i>
 
@@ -193,18 +201,28 @@
 
                 </form>
 
-                <p class="colorwhite">
+                <div>
 
-                    <br>Jours d'Ouverture:
-                    <br>Lundi: H-H
-                    <br>Mardi: H-H
-                    <br>Mercredi: H-H
-                    <br>Jeudi: H-H
-                    <br>Vendredi: H-H
-                    <br>Samedi: H-H
-                    <br>Dimanche: H-H
+                    <p class="colorwhite2">
 
-                </p>
+                        <br>Jours d'Ouverture:
+
+                    </p>
+
+                    <p class="colorwhite">
+
+                        <br>Lundi: H-H
+                        <br>Mardi: H-H
+                        <br>Mercredi: H-H
+                        <br>Jeudi: H-H
+                        <br>Vendredi: H-H
+                        <br>Samedi: H-H
+                        <br>Dimanche: H-H
+
+                    </p>
+
+                </div>
+
                 <br>
 
                 <form action="mailto:valentin.vialleton1@gmail.com" method="POST" enctype="text/plain" class="">
