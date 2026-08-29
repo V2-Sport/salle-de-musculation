@@ -7,8 +7,8 @@
 /* debut boutton switch */
 
 body {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: black;
+    color: white;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -59,7 +59,8 @@ input:checked+.slider:before {
 
 /* Classe pour l'arrière-plan sombre */
 body.dark-mode {
-    background-color: black;
+    background-color: white;
+    color: black;
 }
 
 /* fin boutton switch */
@@ -121,11 +122,11 @@ h2 {
 }
 
 .margin-top-40 {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .margin-top-50 {
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .margin-top-60 {
@@ -380,6 +381,14 @@ h1 {
     color: white;
 }
 
+.colorwhite2 {
+    color: orange;
+}
+
+.colorwhite3{
+    color: black;
+}
+
 .justifycontentflexstart {
     align-items: flex-start;
 }
@@ -450,10 +459,6 @@ div.form-example {
 label,
 input {
     display: table-cell;
-}
-
-.colorwhite2 {
-    color: orange;
 }
 
 .absolute {
