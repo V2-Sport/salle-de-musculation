@@ -414,10 +414,12 @@ abbr {
 
 a[href^="mailto"]::before {
     content: "valentin.vialleton1@gmail.com";
+    color: orange;
 }
 
 a[href^="tel"]::before {
     content: "06 33 10 71 08";
+    color: orange;
 }
 
 label {
@@ -451,7 +453,7 @@ input {
 }
 
 .colorwhite2 {
-    color: blue;
+    color: orange;
 }
 
 .absolute {
