@@ -142,7 +142,7 @@ h2 {
 }
 
 .marginleft3 {
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 .marginleft4 {
@@ -479,7 +479,7 @@ input {
 .static {
     position: absolute;
     inset-inline-start: 1000px;
-    inset-block-start: 10px;
+    inset-block-start: 0px;
 }
 
 .background-image {
